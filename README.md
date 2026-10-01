@@ -1,7 +1,7 @@
 # مهارة كتابة القصة العربية
 ### (Arabic Story Skill — Story Craft + فصحى)
 
-**Arabic story-writing skill for AI agents** — plans, structures and drafts authentic Arabic short stories: العقدة → الصراع → الحل, opening and ending, character and dialogue, then filters the prose through the anti-العَرَنْجِيَّة rules of `arabic-writing-skill` (`قام بزيارة` → `زار`). Works with Claude Code, Codex, Antigravity and VS Code agent harnesses.
+**Arabic story-writing skill for AI agents** — plans, structures and drafts authentic Arabic short stories: العقدة ← الصراع ← الحل, opening and ending, character and dialogue, then filters the prose through the anti-العَرَنْجِيَّة rules of `arabic-writing-skill` (`قام بزيارة` ← `زار`). Works with Claude Code, Codex, Antigravity and VS Code agent harnesses.
 
 🔗 **الموقع المرجعي (الدليل والهيكل والشخصية والحوار والنماذج): [specailm5.github.io/arabic-story-skill](https://specailm5.github.io/arabic-story-skill/)**
 
@@ -93,22 +93,72 @@ mkdir -p ~/.gemini/config/skills/arabic-story-skill && cp -r "$src/." ~/.gemini/
 
 **هيكل القصة — الدعائم الثلاث:**
 
-| الدعامة | مضمونها |
-| :--- | :--- |
-| **العقدة** | اضطراب وحيرة + هدف؛ مأزقٌ لابدّ له من حلّ |
-| **الصراع** | مواجهة قوتين: ضد الظروف، بين الشخصيات، داخل الشخصية |
-| **الحل** | نتيجة الصراع؛ نهاية مفاجئة معقولة، بلا ذيل وبلا مصادفة ضخمة |
+<table dir="rtl">
+<thead>
+<tr>
+<th align="right">الدعامة</th>
+<th align="right">مضمونها</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>العقدة</strong></td>
+<td>اضطراب وحيرة + هدف؛ مأزقٌ لابدّ له من حلّ</td>
+</tr>
+<tr>
+<td><strong>الصراع</strong></td>
+<td>مواجهة قوتين: ضد الظروف، بين الشخصيات، داخل الشخصية</td>
+</tr>
+<tr>
+<td><strong>الحل</strong></td>
+<td>نتيجة الصراع؛ نهاية مفاجئة معقولة، بلا ذيل وبلا مصادفة ضخمة</td>
+</tr>
+</tbody>
+</table>
 
 **فلتر اللسان — تعرج النص:**
 
-| الأسلوب العرنجي الهجين ❌ | الصواب العربي الفصيح ✅ | التوجيه |
-| :--- | :--- | :--- |
-| كان يشعر بالحزن | أَحسَّ بغمٍّ / حَزِن | نبذ الفعل المساعد |
-| تم إغلاق الدكان من قِبل البلدية | أغلقت البلديةُ الدكانَ | امتناع المبني للمجهول إذا عُلم الفاعل |
-| قام بإغلاق الصحيفة | أطبق الصحيفة | الاشتقاق المباشر |
-| لعب دوراً مهماً في | كان قطبَ الرحى | استعارة مسطَّحة مستوردة |
-| على صعيد آخر | وفي شأنٍ آخر | نبذ `على صعيد` |
-| أريد أن أعرف السبب فقط | ما أريد إلا أن أعرف السبب | أسلوب الحصر والقصر |
+<table dir="rtl">
+<thead>
+<tr>
+<th align="right">الأسلوب العرنجي الهجين ❌</th>
+<th align="right">الصواب العربي الفصيح ✅</th>
+<th align="right">التوجيه</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>كان يشعر بالحزن</td>
+<td>أَحسَّ بغمٍّ / حَزِن</td>
+<td>نبذ الفعل المساعد</td>
+</tr>
+<tr>
+<td>تم إغلاق الدكان من قِبل البلدية</td>
+<td>أغلقت البلديةُ الدكانَ</td>
+<td>امتناع المبني للمجهول إذا عُلم الفاعل</td>
+</tr>
+<tr>
+<td>قام بإغلاق الصحيفة</td>
+<td>أطبق الصحيفة</td>
+<td>الاشتقاق المباشر</td>
+</tr>
+<tr>
+<td>لعب دوراً مهماً في</td>
+<td>كان قطبَ الرحى</td>
+<td>استعارة مسطَّحة مستوردة</td>
+</tr>
+<tr>
+<td>على صعيد آخر</td>
+<td>وفي شأنٍ آخر</td>
+<td>نبذ <code>على صعيد</code></td>
+</tr>
+<tr>
+<td>أريد أن أعرف السبب فقط</td>
+<td>ما أريد إلا أن أعرف السبب</td>
+<td>أسلوب الحصر والقصر</td>
+</tr>
+</tbody>
+</table>
 
 ---
 
