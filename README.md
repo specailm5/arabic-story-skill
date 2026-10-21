@@ -122,6 +122,7 @@ mkdir -p ~/.gemini/config/skills/arabic-story-skill && cp -r "$src/." ~/.gemini/
 </tr>
 </tbody>
 </table>
+<br clear="all">
 
 **فلتر اللسان — تعرج النص:**
 
@@ -166,6 +167,7 @@ mkdir -p ~/.gemini/config/skills/arabic-story-skill && cp -r "$src/." ~/.gemini/
 </tr>
 </tbody>
 </table>
+<br clear="all">
 
 ---
 
