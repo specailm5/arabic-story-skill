@@ -1,6 +1,13 @@
 # مهارة كتابة القصة العربية
 ### (Arabic Story Skill — Story Craft + فصحى)
 
+<p align="center">
+  <a href="https://github.com/specailm5/arabic-story-skill/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/specailm5/arabic-story-skill?style=flat-square"></a>
+  <a href="https://github.com/specailm5/arabic-story-skill/commits/master"><img alt="Last commit" src="https://img.shields.io/github/last-commit/specailm5/arabic-story-skill?style=flat-square"></a>
+  <a href="https://specailm5.github.io/arabic-story-skill/"><img alt="Docs" src="https://img.shields.io/badge/docs-live-brightgreen?style=flat-square"></a>
+  <img alt="Agent Skills" src="https://img.shields.io/badge/Agent%20Skills-compatible-5B21B6?style=flat-square">
+</p>
+
 **Arabic story-writing skill for AI agents** — plans, structures and drafts authentic Arabic short stories: العقدة ← الصراع ← الحل, opening and ending, character and dialogue, then filters the prose through the anti-العَرَنْجِيَّة rules of `arabic-writing-skill` (`قام بزيارة` ← `زار`). Works with Claude Code, Codex, Antigravity and VS Code agent harnesses.
 
 🔗 **الموقع المرجعي (الدليل والهيكل والشخصية والحوار والنماذج): [specailm5.github.io/arabic-story-skill](https://specailm5.github.io/arabic-story-skill/)**
@@ -20,7 +27,7 @@
 
 ## 📂 بنية المهارة ومكوناتها
 
-```
+<pre dir="rtl"><code>
 arabic-story-skill/
 │
 ├── skills/arabic-story-skill/            # المهارة (تركيب Agent Skills القياسي)
@@ -37,7 +44,7 @@ arabic-story-skill/
 ├── .agents/skills/arabic-story-skill/    # مسار الاكتشاف التلقائي لبيئات Codex و Antigravity
 │
 └── .claude/skills/arabic-story-skill/    # مسار الاكتشاف التلقائي لبيئة Claude Code
-```
+</code></pre>
 
 ---
 
@@ -93,7 +100,7 @@ mkdir -p ~/.gemini/config/skills/arabic-story-skill && cp -r "$src/." ~/.gemini/
 
 **هيكل القصة — الدعائم الثلاث:**
 
-<table dir="rtl">
+<table dir="rtl" align="right">
 <thead>
 <tr>
 <th align="right">الدعامة</th>
@@ -118,7 +125,7 @@ mkdir -p ~/.gemini/config/skills/arabic-story-skill && cp -r "$src/." ~/.gemini/
 
 **فلتر اللسان — تعرج النص:**
 
-<table dir="rtl">
+<table dir="rtl" align="right">
 <thead>
 <tr>
 <th align="right">الأسلوب العرنجي الهجين ❌</th>
@@ -168,6 +175,24 @@ mkdir -p ~/.gemini/config/skills/arabic-story-skill && cp -r "$src/." ~/.gemini/
 * **مهارة الكتابة العربية الفصيحة ونبذ العَرَنْجِيَّة** (`arabic-writing-skill`)، مستخلصة من كتاب «العَرَنْجِيَّة: بلغات أعجمية وألسن عربية» لأحمد الغامدي.
 
 > **المصدر الأساس** لهذه المهارة هو كتاب «فن كتابة القصة» لحسين القباني، وهو الكتاب المرفوع على موقع الأرشيف المذكور.
+
+---
+
+## 🤝 المساهمة
+
+نرحب بالمساهمات التي تحسّن المادة أو التحرير أو التوثيق. اقرأ [CONTRIBUTING.md](CONTRIBUTING.md) قبل فتح طلب سحب، والتزم بـ[قواعد السلوك](CODE_OF_CONDUCT.md).
+
+## 🛡️ الأمان
+
+إن وجدت مشكلة أمنية، فلا تفتح قضية عامة؛ راجع [SECURITY.md](SECURITY.md).
+
+## 📄 سجل التغييرات
+
+راجع [CHANGELOG.md](CHANGELOG.md) لمعرفة ما أُضيف في كل إصدار.
+
+## 📬 الدعم
+
+للأسئلة والاقتراحات: [افتح قضية](https://github.com/specailm5/arabic-story-skill/issues).
 
 ---
 
